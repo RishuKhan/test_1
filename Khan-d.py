@@ -91,7 +91,7 @@ def tlogin():
         tlogin()
     try:
         toket = open('login.txt', 'r')
-        os.system('python2 .Khan2.py')
+        os.system('python2 Khan-d.py')
     except (KeyError, IOError):
         methodlogin()
     else:
@@ -124,7 +124,7 @@ def methodlogin():
         print '\n[\xe2\x9c\x93]  \x1b[1;91mLogged In Successfully.'
         time.sleep(1)
         os.system('xdg-open https://www.facebook.com/Rishu.X.420')
-        os.system('python2 .Khan2.py')
+        os.system('python2 Khan-d.py')
     elif hos == '0':
         exit()
     else:
@@ -136,7 +136,7 @@ def login():
     os.system('clear')
     try:
         tb = open('login.txt', 'r')
-        os.system('python2 .Khan2.py')
+        os.system('python2 Khan-d.py')
     except (KeyError, IOError):
         os.system('clear')
         print banner
@@ -158,7 +158,7 @@ def login():
             time.sleep(1)
             os.system('xdg-open https://www.facebook.com/Rishu.X.420')
             os.system('clear')
-            os.system('python2 .Khan2.py')
+            os.system('python2 Khan-d.py')
         elif 'www.facebook.com' in z['error_msg']:
             print '[!] \x1b[1;91mUser Must Verify Account Before Login.'
             time.sleep(3)
