@@ -171,6 +171,3 @@ def login():
 
 if __name__ == '__main__':
     tlogin() 
-
-
-	DECOMPILED BY MHANK BARBAR
